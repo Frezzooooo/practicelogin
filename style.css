@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(bg/gray.jpg);
+    filter: blur(50%);
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 1px;
+    margin-left: 55px;
+    text-shadow: 0 0 5px #fff,
+        0 0 3px,
+        0 0 1px
+}
+
+.pw {
+    margin-top: 5px;
+}
+
+.button {
+    margin-top: 15px;
+    margin-left: 73px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-width: 6px;
+    border-color: #fff;
+    box-shadow: #86dfe6 0 0 8px;
+}
+
+button:hover {
+    animation: expand 1s ease-out;
+}
+
+@keyframes expand {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1.1);}
+}
+
+.login {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: #fff 5px 5px 10px;
+    padding: 15px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(50%);
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Us {
+    width: 200px;
+    height: 20px;
+    box-shadow: #fff 0 0 5px;
+    border-radius: 5px;
+    border-color: rgb(128, 203, 216);
+    text-align: center;
+}
+
+.pw {
+    width: 200px;
+    height: 20px;
+    box-shadow: #fff 0 0 5px;
+    border-radius: 5px;
+    border-color: rgb(128, 203, 216);
+    text-align: center;
+}
